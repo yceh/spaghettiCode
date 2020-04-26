@@ -1,0 +1,42 @@
+.keyword{
+    color:red;
+}
+.keywordAssociated{
+    color:red;
+    background-color: greenyellow;
+}
+.related{
+    color:blue;
+}
+.relatedAssociated{
+    color:blue;
+    background-color:orange;
+}
+main{
+    flex:7;
+    margin-right: 10%;
+}
+aside {
+    flex:3;
+}
+
+#mainContent{
+    display: flex;
+}
+.textbox{
+    display: flex;
+}
+.buttonPressed{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+}
+#exclude_reasion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
+}
+.reason{
+    margin: 0.5rem;
+}

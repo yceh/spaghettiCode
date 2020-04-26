@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="./front.js"></script>
+    <link rel="stylesheet" href="./sty.css">
+    <title>Page Title</title>
+</head>
+
+<body>
+    <div id="mainContent">
+    <aside>
+        <div>
+            <p>K:keyword<br>
+            R:related<br>
+            C:cancel<br>
+            M:mutagen<br>
+            G:knockout<br>
+            A:accession</p>
+        </div>
+        <div>
+            <div class="textbox">
+                <label>mutagen</label>
+                <input type="text" id="mutagen">
+            </div>
+            <div class="textbox">
+                <label>knockout</label>
+                <input type="text" id="knockout">
+            </div>
+            <div class="textbox">
+                <label>accession</label>
+                <input type="text" id="accession">
+            </div>
+            <button onclick="submitForm()">submit</button>
+            <div>
+                <label>repo</label>
+                <select id="repo">
+                    <option value="" selected></option>
+                    <option value="ncbi">ncbi</option>
+                    <option value="ena">ena</option>
+                    <option value="ega">ega</option>
+                    <option value="ddbj">ddbj</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+        </div>
+    </aside>
+    <main>
+        <p id="abstract"> My first paragraph.</p>
+    </main>
+</div>
+<div id="exclude_reasion">
+    <label>exclude reason</label>
+    <input type="text" id="customeExcludeReason">
+</div>
+</body>
+
+</html>
